@@ -1,0 +1,9 @@
+\documentclass{article}
+\usepackage{xltxtra}
+\usepackage[francais]{babel}
+
+\begin{document}
+
+\section{Théorie}
+
+\end{document}
