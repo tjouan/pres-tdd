@@ -18,50 +18,12 @@
 
 \date
 {CaenCamp \#FIXME, 2014}
-% - Utilisez à la fois le nom de la conférence et son abréviation.
-% - N'a pas réellement d'importance pour l'assistance qui sera présente lors de la conférence,
-%   mais en a surtout pour les personnes (y compris vous-même) qui liront les transparents en ligne.
-
-\subject{La théorie de l'Informatique}
-% Inséré uniquement dans la page d'information du fichier PDF. Peut être
-% supprimé.
-
-
-
-% Si vous avez un fichier nommé "université-logo-nomfichier.xxx", où xxx
-% est un format graphique accepté par latex ou pdflatex (comme par exemple .png),
-% alors vous pouvez insérer votre logo ainsi :
-
-% \pgfdeclareimage[height=0.5cm]{le-logo}{université-logo-nomfichier}
-% \logo{\pgfuseimage{le-logo}}
-
-
-
-% À supprimer si vous ne voulez pas que la table des matières apparaisse
-% au début de chaque sous-section :
-
-\AtBeginSubsection[] {
-  \begin{frame}<beamer>{Lignes directrices}
-    \tableofcontents[currentsection,currentsubsection]
-  \end{frame}
-}
-
-% Si vous souhaitez recouvrir vos transparents un à un,
-% utilisez la commande suivante (pour plus d'info, voir la page 74 du manuel
-% d'utilisation de Beamer (version 3.06) par Till Tantau) :
-
-%\beamerdefaultoverlayspecification{<+->}
 
 
 \begin{document}
 
 \begin{frame}
   \titlepage
-\end{frame}
-
-\begin{frame}{Lignes directrices}
-  \tableofcontents
-  % Vous pouvez, si vous le souhaiter ajouter l'option [pausesections]
 \end{frame}
 
 
