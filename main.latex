@@ -12,31 +12,12 @@
   % ou autre chose (il est également possible de supprimer cette ligne)
 }
 
-\title[Titre court] % (facultatif, à utiliser uniquement si le titre de l'article est trop long)
-{Très long titre qui prend de la place}
+\title{Développer avec les tests}
 
-\subtitle {ne compléter que si l'article possède un sous-titre}
+\author{T. Jouan}
 
-\author[Auteur, Lautre] % (facultatif, à utiliser seulement avec plusieurs auteurs)
-{F.~Auteur\inst{1} \and S.~Lautre\inst{2}}
-% - Composez les noms dans l'ordre dans lequel ils apparaîtrons dans l'article
-% - Utilisez la commande \inst{?} uniquement si les auteurs ont des affiliations
-%   différentes.
-
-\institute[Universités de Quelque Part et d'Ailleurs] % (facultatif mais généralement nécessaire)
-{
-  \inst{1}%
-  Département  d'Informatique\\
-  Université de Quelque Part
-  \and
-  \inst{2}%
-  Département de Philosophie Théorique\\
-  Université d'Ailleurs}
-% - Utilisez la commande \inst uniquement s'il y a plusieurs affectations
-% - Faîtes quelque chose de simple, personne ne s'intéresse à votre adresse
-
-\date[CFP 2006] % (facultatif, peut être une abréviation du nom de la conférence)
-{Conférence sur les Fantastiques Présentations, 2006}
+\date
+{CaenCamp \#FIXME, 2014}
 % - Utilisez à la fois le nom de la conférence et son abréviation.
 % - N'a pas réellement d'importance pour l'assistance qui sera présente lors de la conférence,
 %   mais en a surtout pour les personnes (y compris vous-même) qui liront les transparents en ligne.
