@@ -3,8 +3,6 @@ PDF_FILE	?= ${TEX_FILE:.latex=.pdf}
 XELATEX		?= xelatex
 VIEWER		?= xpdf
 
-#.PHONY: all ${PDF_FILE} preview clean
-
 all: pdf
 pdf: ${PDF_FILE}
 v: cleanall preview
