@@ -1,25 +1,23 @@
+BUILD_DIR	?= build
+SRC_DIR		?= src
+OUTPUT_DIR	?= output
 TEX_FILE	?= main.latex
-PDF_FILE	?= ${TEX_FILE:.latex=.pdf}
-XELATEX		?= xelatex
+PDF_FILE	?= ${BUILD_DIR}/main.pdf
+TEX		?= xelatex
 VIEWER		?= xpdf -fullscreen
 
-all: pdf
-pdf: ${PDF_FILE}
-v: fclean preview
+all: ${PDF_FILE}
+preview: clean install view
 
 ${PDF_FILE}:
-	@${XELATEX} ${TEX_FILE}
+	# maybe > /tmp/build.log
+	${TEX} -output-directory ${BUILD_DIR} ${SRC_DIR}/${TEX_FILE}
 
-preview: ${PDF_FILE}
+install: ${PDF_FILE}
+	cp ${PDF_FILE} ${OUTPUT_DIR}
+
+view: ${PDF_FILE} install
 	${VIEWER} ${PDF_FILE}
 
 clean:
-	@find . -name \*.aux -delete
-	@find . -name \*.log -delete
-	@find . -name \*.nav -delete
-	@find . -name \*.out -delete
-	@find . -name \*.snm -delete
-	@find . -name \*.toc -delete
-
-fclean: clean
-	@rm -f ${PDF_FILE}
+	@find ${BUILD_DIR} -type f -delete

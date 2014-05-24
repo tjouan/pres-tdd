@@ -27,23 +27,6 @@
 \end{frame}
 
 
-% Structurer l'entretien est une tâche difficile et la structure suivante
-% pourrait ne pas convenir. Voici quelques règles à appliquer pour cet
-% exemple ci :
-
-% - Avoir exactement deux ou trois sections (autre que la table des matières).
-% - Tout au plus trois sous-sections par section
-% - Parlez approximativement entre 30 secondes et 2 minutes par transparent. Il
-%   devrait donc y avoir entre 15 et 30 transparents, tous ayant été commentés.
-
-% - Le public d'une conférence connaîtra probablement peu de chose sur le sujet
-%   que vous serez en train de traiter. Donc, *simplifiez* !
-% - Dans un exposé de 20 minutes, garder à l'esprit les idées principales est largement
-%   suffisant pour votre assistance. Laissez tomber certains détails, même s'ils vous
-%   semblent nécessaires.
-% - Si vous omettez un détail qui est vital pour une preuve/mise en oeuvre,
-%   dites le simplement une fois. Ce sera suffisant pour tout le monde.
-
 \section*{Outline}
 \begin{frame}
   \tableofcontents
