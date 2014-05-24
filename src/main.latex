@@ -4,21 +4,15 @@
 \usepackage{xltxtra}
 \usepackage[french]{babel}
 
+\usepackage{listings}
+\lstloadlanguages{Ruby}
+
 \mode<presentation> {
   \usetheme{Warsaw}
-
   \setbeamercovered{transparent}
-
   \beamertemplatenavigationsymbolsempty
+  \setbeamertemplate{footline}[frame number]
 }
-
-%\AtBeginSection[] {
-%  \begin{frame}<beamer>
-%    \frametitle{Outline}
-%    \tableofcontents[sectionstyle=show/hide,subsectionstyle=hide/show/hide]
-%  \end{frame}
-%  \addtocounter{framenumber}{-1}% If you don't want them to affect the slide number
-%}
 
 
 \title{Développer avec les tests}
@@ -64,19 +58,32 @@
 
 \subsection{Terminologie}
 \subsubsection{Tests unitaires}
-\begin{frame}
+\begin{frame}[fragile]
   \frametitle{\insertsubsubsectionhead}
-  \begin{itemize}
-    \item
-      unité de code
-      \pause
-    \item
-      une seule assertion par test
-      \pause
-    \item
-      porté des tests ?
-      \pause
-  \end{itemize}
+  \begin{columns}[T]
+    \begin{column}{.45\textwidth}
+      \begin{itemize}
+        \item
+          unité de code
+          \pause
+        \item
+          une seule assertion par test
+          \pause
+        \item
+          porté des tests ?
+          \pause
+      \end{itemize}
+    \end{column}
+    \begin{column}{.55\textwidth}
+      \begin{lstlisting}[language=Ruby]
+def add(a, b)
+  a + b
+end
+
+assert_equal 2, add(1 + 1)
+      \end{lstlisting}
+    \end{column}
+  \end{columns}
 \end{frame}
 \subsubsection{Tests d'intégration, fonctionels}
 \subsubsection{Tests de validation utilisateur (UAT)}
