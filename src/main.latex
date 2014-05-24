@@ -45,7 +45,7 @@
 \section{Théorie}
 
 \subsection{Pourquoi tester ?}
-\begin{frame}{Plusieurs raisons justifient l'écriture de tests}
+\begin{frame}{Raisons justifiant l'écriture de tests}
   \begin{itemize}
     \item
       Découverte d'API, aide au prototypage
