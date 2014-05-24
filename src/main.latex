@@ -32,16 +32,42 @@
   \tableofcontents
 \end{frame}
 
+
 \section{Théorie}
 
 \subsection{Pourquoi tester ?}
-\subsubsection{Découverte d'API, aide au prototypage}
-\subsubsection{Prévenir les régressions}
-\subsubsection{Éviter le test manuel humain}
-\subsubsection{Travailler sur du code legacy}
+\begin{frame}{Plusieurs raisons justifient l'écriture de tests}
+  \begin{itemize}
+    \item
+      Découverte d'API, aide au prototypage
+      \pause
+    \item
+      Prévenir les régressions
+      \pause
+    \item
+      Éviter le test manuel humain
+      \pause
+    \item
+      Travailler sur du code legacy
+      \pause
+  \end{itemize}
+\end{frame}
 
 \subsection{Terminologie}
 \subsubsection{Tests unitaires}
+\begin{frame}{Tests unitaires}
+  \begin{itemize}
+    \item
+      unité de code
+      \pause
+    \item
+      une seule assertion par test
+      \pause
+    \item
+      porté des tests ?
+      \pause
+  \end{itemize}
+\end{frame}
 \subsubsection{Tests d'intégration, fonctionels}
 \subsubsection{Tests de validation utilisateur (UAT)}
 \subsubsection{Intégration continue (CI)}
