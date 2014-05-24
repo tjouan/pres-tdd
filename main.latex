@@ -6,10 +6,10 @@
 
 \mode<presentation> {
   \usetheme{Warsaw}
-  % ou autre ...
 
   \setbeamercovered{transparent}
-  % ou autre chose (il est également possible de supprimer cette ligne)
+
+  \beamertemplatenavigationsymbolsempty
 }
 
 \title{Développer avec les tests}
