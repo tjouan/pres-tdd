@@ -27,8 +27,8 @@
 \end{frame}
 
 
-\section*{Outline}
 \begin{frame}
+  \setcounter{tocdepth}{2}
   \tableofcontents
 \end{frame}
 
@@ -36,7 +36,7 @@
 
 \subsection{Pourquoi tester ?}
 \subsubsection{Découverte d'API, aide au prototypage}
-\subsubsection{Prévenir les régression}
+\subsubsection{Prévenir les régressions}
 \subsubsection{Éviter le test manuel humain}
 \subsubsection{Travailler sur du code legacy}
 
@@ -47,19 +47,20 @@
 \subsubsection{Intégration continue (CI)}
 \subsubsection{SUT, setup/teardown, double/mock/stub, fixtures…}
 
-\subsection{Pratique}
 
-\subsection{Retour d'expérience}
-\subsubsection{CLI / ruby}
-\subsubsection{www MVC / rails}
-\subsubsection{provisionning sshd / ruby}
-\subsubsection{GUI X / ruby + C extension}
-\subsubsection{Conclusion}
+\section{Exemple pratique}
 
-\subsection{Annexe - Outils}
 
-\section{Motivation}
-\subsection{Le problème étudié}
+\section{Retour d'expérience}
+
+\subsection{CLI (ruby)}
+\subsection{framework www MVC (rails)}
+\subsection{provisionning ssh (ruby)}
+\subsection{GUI X (ruby + C extension)}
+\subsection{Conclusion}
+
+
+\section{Annexes}
 
 
 \begin{frame}
