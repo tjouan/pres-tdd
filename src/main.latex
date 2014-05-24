@@ -6,9 +6,15 @@
 
 \usepackage{listings}
 \lstloadlanguages{Ruby}
+\lstset{
+  basicstyle=\ttfamily\footnotesize,
+  breaklines=true,
+  frame=single
+}
 
 \mode<presentation> {
-  \usetheme{Warsaw}
+  \usetheme{Malmoe}
+  \usecolortheme{beaver}
   \setbeamercovered{transparent}
   \beamertemplatenavigationsymbolsempty
   \setbeamertemplate{footline}[frame number]
