@@ -7,10 +7,10 @@ all: pdf
 pdf: ${PDF_FILE}
 v: fclean preview
 
-$(PDF_FILE):
-	@$(XELATEX) $(TEX_FILE)
+${PDF_FILE}:
+	@${XELATEX} ${TEX_FILE}
 
-preview: $(PDF_FILE)
+preview: ${PDF_FILE}
 	${VIEWER} ${PDF_FILE}
 
 clean:
