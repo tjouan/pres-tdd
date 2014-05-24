@@ -112,7 +112,4 @@ assert_equal 2, add(1 + 1)
 \section{Annexes}
 
 
-\begin{frame}
-\end{frame}
-
 \end{document}
