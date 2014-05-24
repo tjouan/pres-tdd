@@ -44,165 +44,42 @@
 % - Si vous omettez un détail qui est vital pour une preuve/mise en oeuvre,
 %   dites le simplement une fois. Ce sera suffisant pour tout le monde.
 
-\section{Motivation}
+\section*{Outline}
+\begin{frame}
+  \tableofcontents
+\end{frame}
 
+\section{Théorie}
+
+\subsection{Pourquoi tester ?}
+\subsubsection{Découverte d'API, aide au prototypage}
+\subsubsection{Prévenir les régression}
+\subsubsection{Éviter le test manuel humain}
+\subsubsection{Travailler sur du code legacy}
+
+\subsection{Terminologie}
+\subsubsection{Tests unitaires}
+\subsubsection{Tests d'intégration, fonctionels}
+\subsubsection{Tests de validation utilisateur (UAT)}
+\subsubsection{Intégration continue (CI)}
+\subsubsection{SUT, setup/teardown, double/mock/stub, fixtures…}
+
+\subsection{Pratique}
+
+\subsection{Retour d'expérience}
+\subsubsection{CLI / ruby}
+\subsubsection{www MVC / rails}
+\subsubsection{provisionning sshd / ruby}
+\subsubsection{GUI X / ruby + C extension}
+\subsubsection{Conclusion}
+
+\subsection{Annexe - Outils}
+
+\section{Motivation}
 \subsection{Le problème étudié}
 
-\begin{frame}{Faîtes des titres qui informent.}{Les sous-titres sont facultatifs.}
-  % - Le titre doit résumer le transparent dans un langage compréhensible
-  %   par tous ceux qui ne suivront rien de ce qu'il y a sur ce transparent.
 
-  \begin{itemize}
-  \item Utilisez \texttt{itemize} à volonté.
-  \item Utilisez des phrases très courtes et de courtes expressions.
-  \end{itemize}
-\end{frame}
-
-\begin{frame}{Faîtes des titres qui informent}
-
-  Vous pouvez créer des recouvrements\dots
-  \begin{itemize}
-  \item en utilisant la commande \texttt{pause} :
-    \begin{itemize}
-    \item
-      Premier item.
-      \pause
-    \item
-      Second item.
-    \end{itemize}
-  \item
-    en utilisant les spécifications des recouvrements
-    \begin{itemize}
-    \item<3->
-      Premier item.
-    \item<4->
-      Second item.
-    \end{itemize}
-  \item
-    en utilisant en général la commande \texttt{uncover} :
-    \begin{itemize}
-      \uncover<5->{\item
-        Premier item.}
-      \uncover<6->{\item
-        Second item.}
-    \end{itemize}
-  \end{itemize}
-\end{frame}
-
-
-\subsection{Travail préalable}
-
-\begin{frame}{Faîtes des titres qui informent.}
-
-  {\scshape Beamer}, c'est vraiment super !
-\end{frame}
-
-\begin{frame}{Faîtes des titres qui informent.}
-
-  {\scshape Beamer}, c'est vraiment génial !
-\end{frame}
-
-
-
-\section{Nos résultats/contribution}
-
-\subsection{Principaux résultats}
-
-\begin{frame}{Faîtes des titres qui informent.}
-
-  {\scshape Beamer} possèdent plusieurs thèmes différents...
-\end{frame}
-
-\begin{frame}{Faîtes des titres qui informent.}
-
-  Merci à Till Tantau pour {\scshape Beamer} et son manuel.
-\end{frame}
-
-\begin{frame}{Faîtes des titres qui informent.}
-
-  Toute la puissance de \LaTeX{} pour créer des présentations.
-\end{frame}
-
-
-\subsection{Idées de bases pour les preuves}
-
-\begin{frame}{Faîtes des titres qui informent.}
-
-  Une idée...
-\end{frame}
-
-\begin{frame}{Faîtes des titres qui informent.}
-
-  Une autre...
-\end{frame}
-
-\begin{frame}{Faîtes des titres qui informent.}
-
-  Et une dernière...
-\end{frame}
-
-
-
-\section*{Résumé}
-
-\begin{frame}{Résumé}
-
-  % Faîtes un résumé *très court*.
-  \begin{itemize}
-  \item
-    Le \alert{premier message principal} de l'exposé en une ligne ou
-    deux.
-  \item
-    Le \alert{deuxième message principal} de l'exposé en une ligne ou
-    deux.
-  \item
-    Peut-être un \alert{troisième message}, mais pas plus que ça.
-  \end{itemize}
-
-  % Les perspectives suivantes sont facultatives.
-  \vskip0pt plus.5fill
-  \begin{itemize}
-  \item
-    Perspectives
-    \begin{itemize}
-    \item
-      Problème non résolu.
-    \item
-      Autre problème non résolu.
-    \end{itemize}
-  \end{itemize}
-\end{frame}
-
-
-
-% Tout ce qui suit est facultatif et n'est typiquement pas nécessaire.
-\appendix
-\section<presentation>*{\appendixname}
-\subsection<presentation>*{Lectures complémentaires}
-
-\begin{frame}[allowframebreaks]
-  \frametitle<presentation>{Lectures complémentaires}
-
-  \begin{thebibliography}{10}
-
-  \beamertemplatebookbibitems
-  % Commencer avec des livres (image d'un livre insérée)
-
-  \bibitem{Auteur1990}
-    A.~Auteur.
-    \newblock {\em Livre de quelque chose}.
-    \newblock Une Edition, 1990.
-
-
-  \beamertemplatearticlebibitems
-  % Et continuer avec les articles (image d'un article incluse). Faîtes une liste brève.
-
-  \bibitem{Quelqu'un2000}
-    S.~Quelqu'un.
-    \newblock Et ceci et cela.
-    \newblock {\em Journal de ceci et cela}, 2(1):50--100,
-    2000.
-  \end{thebibliography}
+\begin{frame}
 \end{frame}
 
 \end{document}
