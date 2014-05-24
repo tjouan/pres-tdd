@@ -10,10 +10,8 @@ all: ${PDF_FILE}
 preview: clean install view
 
 ${PDF_FILE}:
-	${TEX} -output-directory ${BUILD_DIR} ${SRC_DIR}/${TEX_FILE} \
-		> ${BUILD_DIR}/log 2>&1
-	${TEX} -output-directory ${BUILD_DIR} ${SRC_DIR}/${TEX_FILE} \
-		> ${BUILD_DIR}/log 2>&1
+	${TEX} -output-directory ${BUILD_DIR} ${SRC_DIR}/${TEX_FILE}
+	${TEX} -output-directory ${BUILD_DIR} ${SRC_DIR}/${TEX_FILE}
 
 install: ${PDF_FILE}
 	cp ${PDF_FILE} ${OUTPUT_DIR}
