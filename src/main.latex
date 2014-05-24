@@ -12,6 +12,15 @@
   \beamertemplatenavigationsymbolsempty
 }
 
+%\AtBeginSection[] {
+%  \begin{frame}<beamer>
+%    \frametitle{Outline}
+%    \tableofcontents[sectionstyle=show/hide,subsectionstyle=hide/show/hide]
+%  \end{frame}
+%  \addtocounter{framenumber}{-1}% If you don't want them to affect the slide number
+%}
+
+
 \title{Développer avec les tests}
 
 \author{T. Jouan}
@@ -55,7 +64,8 @@
 
 \subsection{Terminologie}
 \subsubsection{Tests unitaires}
-\begin{frame}{Tests unitaires}
+\begin{frame}
+  \frametitle{\insertsubsubsectionhead}
   \begin{itemize}
     \item
       unité de code
