@@ -23,4 +23,4 @@ view: ${PDF_FILE} install
 	${VIEWER} ${PDF_FILE} > /dev/null 2>&1
 
 clean:
-	@find ${BUILD_DIR} -type f -delete
+	find ${BUILD_DIR} -type f -delete
