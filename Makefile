@@ -10,7 +10,7 @@ VIEWER		?= xpdf -fullscreen
 .PHONY: install view clean
 
 all: ${PDF_FILE}
-preview: clean install view
+preview: install view
 
 ${PDF_FILE}: ${SRC_DIR}/${TEX_FILE}
 	${TEX} -output-directory ${BUILD_DIR} ${SRC_DIR}/${TEX_FILE}
