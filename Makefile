@@ -2,6 +2,7 @@ BUILD_DIR	?= build
 SRC_DIR		?= src
 OUTPUT_DIR	?= output
 TEX_FILE	?= main.latex
+SRC_FILE	?= ${SRC_DIR}/${TEX_FILE}
 PDF_FILE	?= ${BUILD_DIR}/${TEX_FILE:.latex=.pdf}
 TEX		?= xelatex
 VIEWER		?= xpdf -fullscreen
@@ -12,9 +13,9 @@ VIEWER		?= xpdf -fullscreen
 all: ${PDF_FILE}
 preview: install view
 
-${PDF_FILE}: ${SRC_DIR}/${TEX_FILE}
-	${TEX} -output-directory ${BUILD_DIR} ${SRC_DIR}/${TEX_FILE}
-	${TEX} -output-directory ${BUILD_DIR} ${SRC_DIR}/${TEX_FILE}
+${PDF_FILE}: ${SRC_FILE}
+	${TEX} -output-directory ${BUILD_DIR} ${SRC_FILE}
+	${TEX} -output-directory ${BUILD_DIR} ${SRC_FILE}
 
 install: ${PDF_FILE}
 	cp ${PDF_FILE} ${OUTPUT_DIR}
