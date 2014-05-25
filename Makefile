@@ -6,6 +6,9 @@ PDF_FILE	?= ${BUILD_DIR}/${TEX_FILE:.latex=.pdf}
 TEX		?= xelatex
 VIEWER		?= xpdf -fullscreen
 
+
+.PHONY: install view clean
+
 all: ${PDF_FILE}
 preview: clean install view
 
