@@ -9,7 +9,7 @@ VIEWER		?= xpdf -fullscreen
 all: ${PDF_FILE}
 preview: clean install view
 
-${PDF_FILE}:
+${PDF_FILE}: ${SRC_DIR}/${TEX_FILE}
 	${TEX} -output-directory ${BUILD_DIR} ${SRC_DIR}/${TEX_FILE}
 	${TEX} -output-directory ${BUILD_DIR} ${SRC_DIR}/${TEX_FILE}
 
