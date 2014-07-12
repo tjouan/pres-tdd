@@ -107,6 +107,10 @@ phpunit
 SORT
 ----
 
+  in pros, add fact that return is a lot more fast, starting prog in CLI with
+options is slow, filling forms in website is slow, using a mouse for a GUI is
+slow; all those operations induce a context-switch
+
 http://c2.com/cgi/wiki?ArrangeActAssert
 http://c2.com/cgi/wiki?TenYearsOfTestDrivenDevelopment
 http://www.pairwise.org/
