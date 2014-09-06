@@ -107,6 +107,8 @@ phpunit
 SORT
 ----
 
+  http://xunitpatterns.com/Four%20Phase%20Test.html
+
   in pros, add fact that return is a lot more fast, starting prog in CLI with
 options is slow, filling forms in website is slow, using a mouse for a GUI is
 slow; all those operations induce a context-switch
